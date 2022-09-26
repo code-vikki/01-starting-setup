@@ -8,7 +8,7 @@ function ExpenseItem(props) {
   const[title,setTitle]=useState(props.title);
   
   const clickHandler = () => {
-    setTitle("new Title")
+    setTitle("Priya I can push to Git Somehow")
   };
 
   return (
