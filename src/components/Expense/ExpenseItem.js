@@ -4,11 +4,10 @@ import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 
 function ExpenseItem(props) {
-  
-  const[title,setTitle]=useState(props.title);
-  
+  const [title, setTitle] = useState(props.title);
+
   const clickHandler = () => {
-    setTitle("Priya I can push to Git Somehow")
+    setTitle("Priya I can push to Git Somehow");
   };
 
   return (
